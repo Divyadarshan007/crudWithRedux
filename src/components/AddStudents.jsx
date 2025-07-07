@@ -13,7 +13,7 @@ const AddStudents = () => {
     const handleChange = (e) => {
         setInput({ ...input, [e.target.id]: e.target.value })
     }
-    console.log(input);
+
 
     const handleSubmit = (e) => {
         e.preventDefault();
